@@ -10,4 +10,5 @@ chown -R mysql:mysql ./mysql/
 
 after that, it will be able to create schema/database
 
-[2019/01/08]
+[2019/01/08] thanks for https://stackoverflow.com/users/1046738/jfly
+
