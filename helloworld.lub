@@ -1,0 +1,9 @@
+#include "lua.h"
+
+int main()
+    {
+        lua.State "L = lua_open();
+        # do Lua stuff here
+        lua_close;
+        return 0;
+    }
