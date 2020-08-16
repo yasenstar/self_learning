@@ -11,3 +11,6 @@ His first official act of the day would be to advance the Master Hibernation Tim
 Bowman would attend to his toilet, and do his isometric exercises, before settling down to breakfast and the morning's ratio-fax edition of the $World Times$. On Earth, he never read the paper as carefully as he did now; even the smallest items of sociaty gossip, the most fleeting political rumors, seemed of absorbing interest as they flashed across the screen.
 
 At 0700 he would officially relieve Poole on the Control Deck, brining him a squeeze-tube of coffee from the kitcken. If – as was usually the case – there was nothing to report and no action to be taken, he would settle down to check all the instrument readings, and would run through a series of testsdesigned to spot possible malfunctions. By 1000 this would be finished, and he would start on a study period.
+
+… …
+
