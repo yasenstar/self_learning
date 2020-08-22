@@ -27,3 +27,6 @@ Poole and Bowman studied the screen in silence for half a minute. This image was
 
 "It's intermittment and I can't localize it. But it appears to be in the AE-35 unit."
 
+… …
+
+"Mission Control, this is X-ray-Delta-One, two-one-zero-four, transmission concluded."
