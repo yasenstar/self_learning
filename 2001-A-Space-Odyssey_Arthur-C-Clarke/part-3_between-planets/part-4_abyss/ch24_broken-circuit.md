@@ -42,5 +42,6 @@ There was no safe answer to that; Bowman gave up the argument.
 
 He felt like adding "and please forgot the whole matter." But that, of course, was the one thing that Hal could never do.
 
+\
 
 If was unusual
