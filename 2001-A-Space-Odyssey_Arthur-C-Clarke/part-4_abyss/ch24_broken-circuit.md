@@ -44,4 +44,8 @@ He felt like adding "and please forgot the whole matter." But that, of course, w
 
 <br />
 
-If was unusual
+If was unusual… …
+
+… …
+
+It was a commonplace situation, familiar to every householder. One does not replace a blown fuse – until one knows just _why_ it has blown.
