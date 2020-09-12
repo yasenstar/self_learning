@@ -30,5 +30,5 @@
 
 动力学
 
-![动力学](06-donglixue.gif)
+![动力学](img/06-donglixue.gif)
 
