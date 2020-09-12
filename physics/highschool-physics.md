@@ -22,3 +22,4 @@
 
 ![物块所受支持力和摩擦力的大小](img/05-support-force.gif)
 
+![进一步](img/05-force.gif)
