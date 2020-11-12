@@ -1,0 +1,88 @@
+%First document, firstdocumentmod.tex
+\documentclass{amsart}
+\usepackage{amssymb,latexsym}
+
+\newcommand{\pdelta}{\pmod{\delta}}
+\DeclareMathOperator{\length}{length}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+\title{A technical lemma\\ for congruences of finite lattices}  
+\author{G. Gr\"{a}tzer} 
+\address{Department of Mathematics\\
+  University of Manitoba\\
+  Winnipeg, MB R3T 2N2\\
+  Canada}
+\email[G. Gr\"atzer]{gratzer@me.com}
+\urladdr[G. Gr\"atzer]{http://tinyurl.com/lej5g49}
+\date{March 21, 2014}
+\subjclass[2010]{Primary: 06B10.}
+\keywords{finite lattice, congruence.}
+\begin{abstract}
+We present here a Technical Lemma 
+for congruences on \emph{finite lattices}.
+This is not difficult to prove but it has already has proved 
+its usefulness in some applications.
+\end{abstract}
+\maketitle
+
+\subsection*{Introduction}\label{Intro}%Section~\label{Intro}
+In some recent research, G. Cz\'edli
+and I, see \cite{gC13} and \cite{GS13}, spent quite an effort
+in proving that some equivalence relations 
+on a planar semimodular lattice
+with intervals as equivalence classes are congruences. 
+The number of cases we had to consider
+was dramatically cut by the following result.
+
+\begin{lemma}\label{L:technical}%Lemma~\ref{L:technical}
+Let $L$ be a finite lattice. 
+Let $\delta$ be an equivalence relation on $L$
+with intervals as equivalence classes.
+Then $\delta$ is a congruence relation if{}f 
+the following condition and its dual hold:
+\begin{equation}\label{E:cover}%\eqref{E:cover}
+\text{If $x$ is covered by $y,z \in L$ 
+and $x \equiv y \pdelta$,
+then $z \equiv y + z \pdelta$.}\tag{C${}_{+}$}
+\end{equation}
+\end{lemma}
+
+\subsection*{Proof}\label{Proof}%Section~\label{Proof}
+We prove the join-substitution property:  
+if $x \leq y$ and $x \equiv y \pdelta$, then
+\begin{equation}\label{E:Cjoin}%\eqref{E:Cjoin}
+x + z \equiv y + z \pdelta.
+\end{equation}
+Let $U = [x, y+ z]$.
+We induct on $\length U$, the length of $U$.  
+
+Let $I=[y_1,y+ z]$ and $J=[z_1,y+ z]$. 
+Then $\length I$ and $\length J  < \length U$. 
+Hence, the induction hypothesis applies to $I$ 
+and $\delta\rceil I$, and we obtain that 
+$w \equiv y+ w \pdelta$. 
+By the transitivity of $\delta$, we conclude that 
+\begin{equation}\label{E:three}%\eqref{E:three}
+z_1 \equiv y+ w \pdelta.
+\end{equation}
+Therefore, applying the induction hypothesis to $J$ 
+and $\delta \rceil J$, we conclude from \eqref{E:three} that 
+\[
+   x+ z = z + z_1 \equiv z + (y+ w) = y+ z \pdelta,
+\] 
+proving \eqref{E:Cjoin}.
+
+\begin{thebibliography}{9}
+\bibitem{gC13}%G. Cz\'edli~\cite{gC13}
+G. Cz\'edli,
+\emph{Patch extensions and trajectory colorings of slim
+rectangular lattices.}
+Algebra Universalis, to appear. 
+
+\bibitem{GS13}%G. Gr\"atzer \cite{GS13}
+G. Gr\"atzer, 
+\emph{Congruences of fork extensions of lattices.}
+Acta Sci. Math. (Szeged), submitted. arXiv: 1307.8404
+\end{thebibliography}
+\end{document}
