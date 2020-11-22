@@ -1,0 +1,13 @@
+h1 {
+    font-family: Baskerville, cambria, serif;
+    font-size: 48px;
+}
+
+.green {
+    color: green;
+}
+
+#hello {
+    font-weight: bold;
+    font-style: italic;
+}
