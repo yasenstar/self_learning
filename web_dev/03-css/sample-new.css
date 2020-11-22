@@ -1,0 +1,8 @@
+p {
+    font-size:12px;
+    font-family: Baskerville,cambria,serif;
+}
+p.red {
+    font-style:italic;
+    color:green;
+}

@@ -1,0 +1,9 @@
+/* selector - by the way this is how to do comments in CSS */
+p.red
+/* properties */
+{
+    color:red;
+    font-family:baskerville, cambria, serif;
+    font-size:12px;
+    font-style:italic;
+}
