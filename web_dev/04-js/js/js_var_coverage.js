@@ -1,12 +1,12 @@
 // global variables
-outside = "outside";
-global = "global";
+var outside = "outside";
+var global = "global";
 var same = "outside";
 
 function testfunction()
 {
     // inside function
-    global = "local";    // mistakenly modified global variable
+    var global = "local";    // mistakenly modified global variable
 
     var inside = "inside";    // local variable
     var local;
