@@ -105,3 +105,5 @@ spec:
     replicas: 4
 ```
 
+Deployments is the advanced of Replication Controller
+
