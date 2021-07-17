@@ -4,6 +4,8 @@ Author: Erika Andersen
 
 [Website for "Be Bad First"](bebadfirst.com)
 
+"Accepting to Being Bad for Willing to be Great!" -- Erika
+
 [toc]
 
 ## Chapter 1 The New Need to Learn - and Our Mixed Response
