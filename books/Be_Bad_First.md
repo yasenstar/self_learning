@@ -71,7 +71,41 @@ Most of us really dislike going back to the novice state -- especially in areas 
 
 The willingness to be bad first, to spend time in the "novice state," is the most potentially powerful capability you can develop as a learner.
 
+### Before Moving...
+
+Two Learning Opportunities to Find Out:
+
+1. What's one thing that you're excited about learning -- something you want to learn? (Ideally, this would be something you've already started learning, since that's your best indication that you really do want to learn it!)
+2. What's one thing that you know you need to learn, but that you don't want to learn? (This can be something that you already know you don't want to learn. It can also be something that you think or say you want to learn...but that you haven't yet been able to make consistent effort to learn.)
+
+Some questions should ask to self --
+
+1. Are you starting to want to explore these ideas?
+2. Are you a little clearer about where your growth areas might be?
+3. Are you wondering what's next?
+4. Are you acknowledging that you might not be as good as learning new things as you'd like to be?
+
 ## Chapter 4 Aspiration: Ya Gotta Wanna
+
+Wanting and Not Wanting, below are two false assumptions --
+
+- Saying We Want What We Don't (Really)
+  - We often confuse _being interested in the possibility_ of something with actually _wanting to achieve it_.
+- Saying We Don't Want to When We Do (Kind Of)
+  - When we do something we don't want to do very much, it is because we see it (usually without consciously thingking this through) as the best option avaiable; we believe we'll gain something important (or avoid something bad) by doing it.
+- So: We Do What We Want Most
+  - _We only do those things that we want to do more than any other option that's available to us in a given situation._
+
+To make yourself want to learn something:
+
+- Imagine the personal benefits to you of learning it
+- Envision a "possible world" where you're enjoying those benefits
+
+When we do anything that requires effort, we do it because we see clearly how it will benefit us, and we imagiune the future where we're reaping those benefits.
+
+
+
+
 
 ## Chapter 5 Neutral Self-Awareness: The _American Idol_ Syndrome
 
