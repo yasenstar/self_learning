@@ -2,6 +2,8 @@
 
 Author: Erika Andersen
 
+Borrow: 2021/07
+
 [Website for "Be Bad First"](bebadfirst.com)
 
 "Accepting to Being Bad for Willing to be Great!" -- Erika
@@ -9,6 +11,9 @@ Author: Erika Andersen
 [toc]
 
 ## Chapter 1 The New Need to Learn - and Our Mixed Response
+
+1. How criticl it is for you to become a skilled and fluent acquirer of new knowledge and skills in order to succeed in this century?
+2. How deeply we can each resist the necessary "novice" state that accompanies any truely new learning?
 
 ## Chapter 2 The Drive to Mastery: We Want to Get Good
 
@@ -103,16 +108,47 @@ To make yourself want to learn something:
 
 When we do anything that requires effort, we do it because we see clearly how it will benefit us, and we imagiune the future where we're reaping those benefits.
 
+Getting clearer about the benefits that are most important to you is valuable in 2 ways:
 
-
-
+1. It gives you a better sense of how you're wired aspirationally -- what's likely to be motivating to you in any situation;
+2. Thinking through how you might gain some of these same benefits in those areas helps you break the unhelpful cycle of thinking only about the difficulties and obstackles.
 
 ## Chapter 5 Neutral Self-Awareness: The _American Idol_ Syndrome
 
+To increase your neutral self-awareness:
+
+- Manage your self-talk: Recognize --> Record --> Rethink --> Repeat
+- Become your own fair witness
+- Invite good "sources"
+
+Neutral Self-Awareness starts when you gain more awareness and control over how you talk to yourself about yourself.
+
 ## Chapter 6 Endless Curiosity: Not Just Kid Stuff
+
+True meaning of Curious, is _I'm so fascinated by how things work and what might be posible that I'm completely willing to do what it taks to find out more and become more skilled._ --> A deep and abiding _need to understand and master_.
+
+To re-become Endlessly Curious:
+
+- Find your own curiosity "sparks"
+- Fan the flames with self-talk and action
+- Feed the fire of curiosity daily
 
 ## Chapter 7 Willingness to Be Bad First: The Trap of Competence
 
+To become willing to be bad first:
+
+- Fully accept being not-good
+- Believe in your ability to get good
+- "Bridge" from what you're already good at
+
 ## Chapter 8 Slaying Your Personal Dragons: On the Road to Mastery
+
+```
+If people knew how hard I worked to get my mastery, it wouldn't seem so wonderful at all.
+
+-- Michelangelo
+```
+
+
 
 ## Chapter 9 Do It Now: Making ANEW Your Own
