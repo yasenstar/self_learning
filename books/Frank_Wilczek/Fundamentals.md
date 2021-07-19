@@ -13,6 +13,10 @@ _- Longing for the Harmonies_
 
 _Fundamentals_ is meants to offer an alternative to traditional religious fundamentalism.
 
+Babies are like the scientists, making experiments and drawing conclusions.
+
+TMS - Transcranial Magnetic Stimulation (经颅磁刺激)
+
 # Introduction
 
 # I. WHAT THERE IS
