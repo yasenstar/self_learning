@@ -2,7 +2,7 @@ This is the placeholder for Yasen tracking variable self-learning areas before c
 
 ![SelfLeaning Logo Image](img/self-learning.jpg)
 
-Good quote from [Adam Grant](https://www.linkedin.com/in/adammgrant/), who is author of THINK AGAIN, on LEARN and UNLEARN!
+Good quote from [Adam Grant](https://www.linkedin.com/in/adammgrant/), who is author of [THINK AGAIN](https://github.com/yasenstar/books/blob/main/Think_Again.md), on LEARN and UNLEARN!
 
 | LEARN                                                        | UNLEARN                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
