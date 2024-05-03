@@ -3,7 +3,7 @@
 <node TEXT="Tips" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1714698057159">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.396">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_solarized_template.mm"/>
 
 <map_styles>
@@ -84,7 +84,7 @@
 </hook>
 <node TEXT="Power BI" POSITION="bottom_or_right" ID="ID_187237236" CREATED="1714698076462" MODIFIED="1714698079700">
 <node TEXT="How to Replace Value with a Value from another Column in Power Query?" ID="ID_569028441" CREATED="1714698079703" MODIFIED="1714698228768" LINK="https://wmfexcel.com/2021/09/04/how-to-replace-value-with-a-value-from-another-column-in-power-query/">
-<node ID="ID_900842650" CREATED="1714698105134" MODIFIED="1714698123947"><richcontent TYPE="NODE">
+<node ID="ID_900842650" CREATED="1714698105134" MODIFIED="1714699412964"><richcontent TYPE="NODE">
 
 <html>
   <head>
