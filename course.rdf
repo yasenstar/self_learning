@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/6/course/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/6/course/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#Canadian-Math -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Canadian-Math"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Canadian-Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#中国数学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#中国数学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-上 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-上">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#中国数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-下 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-下">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#中国数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-上 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-上">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#中国数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-下 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-下">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#中国数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-上 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-上">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#中国数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-下 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-下">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#中国数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第01章-有理数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第01章-有理数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第02章-整式的加减 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第02章-整式的加减">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第03章-一元一次方程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第03章-一元一次方程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第04章-几何图形初步 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第04章-几何图形初步">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第05章-相交线与平行线 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第05章-相交线与平行线">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第06章-实数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第06章-实数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第07章-平面直角坐标系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第07章-平面直角坐标系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第08章-二元一次方程组 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第08章-二元一次方程组">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第09章-不等式与不等式组 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第09章-不等式与不等式组">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第10章-数据的收集整理与描述 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第10章-数据的收集整理与描述">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-七年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第11章-三角形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第11章-三角形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第12章-全等三角形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第12章-全等三角形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第13章-轴对称 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第13章-轴对称">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第14章-整式的乘法与因式分解 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第14章-整式的乘法与因式分解">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第15章-分式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第15章-分式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第16章-二次根式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第16章-二次根式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第17章-勾股定理 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第17章-勾股定理">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第18章-平行四边形 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第18章-平行四边形">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第19章-一次函数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第19章-一次函数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第20章-数据的分析 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第20章-数据的分析">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-八年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第21章-一元二次方程 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第21章-一元二次方程">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第22章-二次函数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第22章-二次函数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第23章-旋转 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第23章-旋转">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第24章-圆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第24章-圆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第25章-概率初步 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第25章-概率初步">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#10-Probability"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-上"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第26章-反比例函数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第26章-反比例函数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第27章-相似 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第27章-相似">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第28章-锐角三角函数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第28章-锐角三角函数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#第29章-投影与视图 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#第29章-投影与视图">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#数学-人教版-九年级-下"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#01-Representations-of-a-Situation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#01-Representations-of-a-Situation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#02-Ratios-and-Proportions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#02-Ratios-and-Proportions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#03-Percentage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#03-Percentage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#04-Algebra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#04-Algebra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#05-Equations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#05-Equations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#06-Similar-Figures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#06-Similar-Figures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#07-Regular-Polygons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#07-Regular-Polygons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#08-Circle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#08-Circle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#09-Solids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#09-Solids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/6/course#10-Probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/6/course#10-Probability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/6/course#Mathematics3000-Secondary-Level-Cycle-One-Book2"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
