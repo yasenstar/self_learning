@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2024/8/math/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2024/8/math/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#二元关系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#二元关系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#离散数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题变元 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题变元">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-3_由两个或两个以上原子命题组合而成的命题成为复合命题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题常元 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题常元">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-3_由两个或两个以上原子命题组合而成的命题成为复合命题"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题联结词 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题联结词">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#1-命题与联结词"/>
+        <rdfs:comment>描述一个问题时，往往要用多个命题或复杂的命题形式才能表达一个完整的内容。用于把一个或多个命题联结起来构成复杂命题形式的词语成为命题联结词</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题逻辑 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题逻辑">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#数理逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#图论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#图论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#离散数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-1_能够判断真假的陈述句成为命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-1_能够判断真假的陈述句成为命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#1-命题与联结词"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-2_不能被分解为更简单的陈述语句的命题成为原子命题或简单命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-2_不能被分解为更简单的陈述语句的命题成为原子命题或简单命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#1-命题与联结词"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-3_由两个或两个以上原子命题组合而成的命题成为复合命题 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-3_由两个或两个以上原子命题组合而成的命题成为复合命题">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#1-命题与联结词"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-4_表示原子命题的符号成为命题标识符 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-4_表示原子命题的符号成为命题标识符">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#1-命题与联结词"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-5_命题逻辑中合法的命题结构称为命题公式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#定义2-5_命题逻辑中合法的命题结构称为命题公式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#2-命题公式极其赋值"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#数理逻辑 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#数理逻辑">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#离散数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#无向图 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#无向图">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#图论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#有向图 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#有向图">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#图论"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#离散数学 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#离散数学"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#谓词逻辑 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#谓词逻辑">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#数理逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#集合论 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#集合论">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#离散数学"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#1-否定联结词 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#1-否定联结词">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题联结词"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#1-命题与联结词 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#1-命题与联结词">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#2-合取联结词 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#2-合取联结词">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题联结词"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#2-命题公式极其赋值 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#2-命题公式极其赋值">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#3-析取联结词 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#3-析取联结词">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题联结词"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#3-等值演算 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#3-等值演算">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#4-范式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#4-范式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#4-蕴涵联结词 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#4-蕴涵联结词">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题联结词"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#5-同真假联结词 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#5-同真假联结词">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题联结词"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/8/math#5-命题逻辑推理 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/8/math#5-命题逻辑推理">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/8/math#命题逻辑"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>数学</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
