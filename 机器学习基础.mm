@@ -1,7 +1,7 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="机器学习基础" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1732611673141" VGAP_QUANTITY="3 pt"><hook NAME="MapStyle" background="#d6e8e8ff" zoom="1.3310001">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_sky_element_template.mm" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_sky_element_template.mm" fit_to_viewport="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -185,9 +185,28 @@
 </node>
 </node>
 <node TEXT="2. 机器学习工程实践" ID="ID_110794680" CREATED="1732611722924" MODIFIED="1732611732004">
-<node TEXT="2.1 模型评估指标" ID="ID_472954337" CREATED="1732619739118" MODIFIED="1732619748320"/>
+<node TEXT="2.1 模型评估指标" ID="ID_472954337" CREATED="1732619739118" MODIFIED="1732619748320">
+<node TEXT="2.1.1 回归模型的评估指标" ID="ID_970754831" CREATED="1732619967183" MODIFIED="1732619976419">
+<node TEXT="绝对误差 mean_absolute_error" ID="ID_661893680" CREATED="1732620001331" MODIFIED="1732620012287"/>
+<node TEXT="均方误差 mean_squared_error" ID="ID_807450380" CREATED="1732620016239" MODIFIED="1732620034969"/>
+</node>
+<node TEXT="2.1.2 分类模型的评估指标" ID="ID_484180137" CREATED="1732620473047" MODIFIED="1732620483550">
+<node TEXT="准确率 accuracy" ID="ID_226249070" CREATED="1732620504962" MODIFIED="1732620516669"/>
+<node TEXT="精度 precision" ID="ID_645448853" CREATED="1732620710138" MODIFIED="1732620715800"/>
+<node TEXT="召回率 recall" ID="ID_1757400998" CREATED="1732620936119" MODIFIED="1732620945342"/>
+<node TEXT="F1值" ID="ID_1884493003" CREATED="1732621067803" MODIFIED="1732621074798"/>
+<node TEXT="ROC曲线" ID="ID_283094437" CREATED="1732621293841" MODIFIED="1732621298086"/>
+<node TEXT="AUC" ID="ID_1311830274" CREATED="1732621574397" MODIFIED="1732621576609"/>
+<node TEXT="混淆矩阵 confusion matrix" ID="ID_1536611129" CREATED="1732621745375" MODIFIED="1732621756747"/>
+</node>
+<node TEXT="2.1.3 聚类模型的评估指标" ID="ID_55157787" CREATED="1732621900557" MODIFIED="1732621909451">
+<node TEXT="外部指标 external index" ID="ID_1417646905" CREATED="1732621909454" MODIFIED="1732621918678"/>
+<node TEXT="内部指标 internal index" ID="ID_765449767" CREATED="1732622146474" MODIFIED="1732622155951"/>
+<node TEXT="轮廓系数" ID="ID_919992762" CREATED="1732622351222" MODIFIED="1732622370010"/>
+</node>
+</node>
 <node TEXT="2.2 模型复杂度度量" ID="ID_1746164758" CREATED="1732619748481" MODIFIED="1732619758091"/>
-<node TEXT="" ID="ID_1574835601" CREATED="1732619758261" MODIFIED="1732619758261"/>
+<node TEXT="2.3 特征工程与模型调优" ID="ID_1574835601" CREATED="1732619758261" MODIFIED="1732619947022"/>
 </node>
 </node>
 <node TEXT="3. 线性回归" POSITION="bottom_or_right" ID="ID_1577076348" CREATED="1732611732147" MODIFIED="1732611736492"/>
