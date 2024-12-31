@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:prescription="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#includes"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#夏枯草 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#夏枯草">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#方剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#方剂"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#柴胡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#柴胡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#法半夏 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#法半夏">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#甘松 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#甘松">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#白芍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#白芍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#百合 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#百合">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#苏叶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#苏叶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#酸枣仁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#酸枣仁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#组分"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#夏枯草20克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#夏枯草20克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#夏枯草"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#柴胡12克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#柴胡12克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#柴胡"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#法半夏10克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#法半夏10克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#法半夏"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#甘松15克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#甘松15克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#甘松"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#白芍15克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#白芍15克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#白芍"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#百合30克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#百合30克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#百合"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#神农镇痛膏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#神农镇痛膏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#方剂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#苏叶10克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#苏叶10克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#苏叶"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#酸枣仁30克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#酸枣仁30克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#酸枣仁"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#高枕无忧汤 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#高枕无忧汤">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#方剂"/>
+        <prescription:includes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#夏枯草20克"/>
+        <prescription:includes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#柴胡12克"/>
+        <prescription:includes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#法半夏10克"/>
+        <prescription:includes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#甘松15克"/>
+        <prescription:includes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#白芍15克"/>
+        <prescription:includes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#百合30克"/>
+        <prescription:includes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#苏叶10克"/>
+        <prescription:includes rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2024/11/prescription#酸枣仁30克"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://mp.weixin.qq.com/s/1g_CRcSi58jlC1E0L2Mw9A</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
