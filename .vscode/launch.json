@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "c_java",
+            "request": "launch",
+            "mainClass": "c_java",
+            "projectName": "self_learning_867ee57e"
+        },
+        {
             "name": "g++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
