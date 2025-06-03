@@ -1,3 +1,9 @@
+# Editing in Markdown
+
+[TOC]
+
+## General Layout
+
 **标题设置**
 
 ```
@@ -51,4 +57,21 @@
 分割线：三个或以上的 * 或 -
 ```
 
-My email: <xiaoqizhao@outlook.com>
+## How to create a button
+
+```
+[<button type="button">Chapter 02»</button>](../02_Rationale_of_Alignment/README.md) [<button type="button">HOME</button>](../README.md)
+```
+
+Sample as: [<button type="button">Chapter 02»</button>](../02_Rationale_of_Alignment/README.md) [<button type="button">HOME</button>](../README.md)
+
+## Key in special character in Markdown through ALT + code (need to use number pad):
+
+- « : Alt + 0171
+- » : Alt + 0187
+- ® : Copyright, Alt + 0174
+
+## Key in special characters in Markdown through HTML syntax:
+
+- superscript: use "sup" tag
+- subscript: use "sub" tag
