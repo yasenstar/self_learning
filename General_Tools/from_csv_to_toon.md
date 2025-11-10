@@ -12,6 +12,11 @@
     - [05 JSON Array - Product Catalog](#05-json-array---product-catalog)
     - [06 Nested JSON - User Profile with Nested Address](#06-nested-json---user-profile-with-nested-address)
     - [07 Nested JSON - E-commerce Order with Items](#07-nested-json---e-commerce-order-with-items)
+    - [08 Nested JSON - Company with Departments and Employees](#08-nested-json---company-with-departments-and-employees)
+    - [09 API Response - REST API Success Response](#09-api-response---rest-api-success-response)
+    - [10 API Response - REST API Error Response](#10-api-response---rest-api-error-response)
+    - [11 API Response - Paginated API Response](#11-api-response---paginated-api-response)
+  - [JSON - TOON Comparison Summary](#json---toon-comparison-summary)
 
 ## Brief of TOON
 
@@ -47,7 +52,9 @@ From interactive Format Tokenization Playground (https://www.curiouslychase.com/
 
 ## Compare between JSON and TOON
 
-This article - using JSON-TOON converter - to show you the tokenization comparison between variable JSON format samples data with TOON
+This article - using JSON-TOON converter - to show you the tokenization comparison between variable JSON format samples data with TOON.
+
+JSON examples are referred from https://jsontotable.org/blog/json/sample-json
 
 ### 01 Basic JSON - Simple User Profile
 
@@ -385,6 +392,237 @@ status: processing
 
 JSON: ~196 tokens, TOON: ~127 tokens, (35.2% less)
 
+### 08 Nested JSON - Company with Departments and Employees
 
+Organizational hierarchy with nested depertments and staff.
 
-JSON: ~196 tokens, TOON: ~127 tokens, (35.2% less)
+Use cases: HR systems, organizational charts, employee management
+
+JSON:
+
+```JSON
+{
+  "companyId": "COMP-2025",
+  "name": "TechCorp Inc.",
+  "founded": 2010,
+  "headquarters": {
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA"
+  },
+  "departments": [
+    {
+      "departmentId": "DEPT-001",
+      "name": "Engineering",
+      "manager": "Jane Smith",
+      "employees": [
+        {
+          "employeeId": "EMP-101",
+          "name": "David Lee",
+          "position": "Senior Developer",
+          "salary": 120000
+        },
+        {
+          "employeeId": "EMP-102",
+          "name": "Emma Wilson",
+          "position": "DevOps Engineer",
+          "salary": 110000
+        }
+      ]
+    },
+    {
+      "departmentId": "DEPT-002",
+      "name": "Marketing",
+      "manager": "Robert Johnson",
+      "employees": [
+        {
+          "employeeId": "EMP-201",
+          "name": "Lisa Anderson",
+          "position": "Marketing Manager",
+          "salary": 95000
+        }
+      ]
+    }
+  ],
+  "totalEmployees": 3
+}
+```
+
+TOON:
+
+```
+companyId: COMP-2025
+name: TechCorp Inc.
+founded: 2010
+headquarters:
+  city: San Francisco
+  state: CA
+  country: USA
+departments[2]:
+  - departmentId: DEPT-001
+    name: Engineering
+    manager: Jane Smith
+    employees[2]{employeeId,name,position,salary}:
+      EMP-101,David Lee,Senior Developer,120000
+      EMP-102,Emma Wilson,DevOps Engineer,110000
+  - departmentId: DEPT-002
+    name: Marketing
+    manager: Robert Johnson
+    employees[1]{employeeId,name,position,salary}:
+      EMP-201,Lisa Anderson,Marketing Manager,95000
+totalEmployees: 3
+```
+
+JSON: ~180 tokens, TOON: ~116 tokens, (35.6% less)
+
+### 09 API Response - REST API Success Response
+
+Standard API response with status, message, and data payload.
+
+Use cases: REST API responses, success message, data retrieval endpoints.
+
+JSON:
+
+```JSON
+{
+  "status": "success",
+  "statusCode": 200,
+  "message": "Data retrieved successfully",
+  "data": {
+    "userId": 12345,
+    "username": "john_developer",
+    "email": "john@example.com",
+    "createdAt": "2024-01-15T08:30:00Z"
+  },
+  "meta": {
+    "timestamp": "2025-01-15T12:00:00Z",
+    "requestId": "req-abc123",
+    "version": "v1"
+  }
+}
+```
+
+TOON:
+
+```
+status: success
+statusCode: 200
+message: Data retrieved successfully
+data:
+  userId: 12345
+  username: john_developer
+  email: john@example.com
+  createdAt: "2024-01-15T08:30:00Z"
+meta:
+  timestamp: "2025-01-15T12:00:00Z"
+  requestId: req-abc123
+  version: v1
+```
+
+JSON: ~85 tokens, TOON: ~59 tokens, (30.6% less)
+
+### 10 API Response - REST API Error Response
+
+Error response with details for debugging and error handling.
+
+Use cases: Error handling, API validation, debugging systems.
+
+JSON:
+
+```JSON
+{
+  "status": "error",
+  "statusCode": 404,
+  "message": "Resource not found",
+  "error": {
+    "code": "RESOURCE_NOT_FOUND",
+    "details": "User with ID 99999 does not exist",
+    "field": "userId"
+  },
+  "meta": {
+    "timestamp": "2025-01-15T12:00:00Z",
+    "requestId": "req-xyz789"
+  }
+}
+```
+
+TOON:
+
+```
+status: error
+statusCode: 404
+message: Resource not found
+error:
+  code: RESOURCE_NOT_FOUND
+  details: User with ID 99999 does not exist
+  field: userId
+meta:
+  timestamp: "2025-01-15T12:00:00Z"
+  requestId: req-xyz789
+```
+
+JSON: ~72 tokens, TOON: ~49 tokens, (31.9% less)
+
+### 11 API Response - Paginated API Response
+
+List response with pagination metadata for large datasets.
+
+Use cases: list endpoints, data tables, infinite scroll implementations
+
+JSON:
+
+```JSON
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "title": "First Blog Post",
+      "author": "Alice"
+    },
+    {
+      "id": 2,
+      "title": "Second Blog Post",
+      "author": "Bob"
+    }
+  ],
+  "pagination": {
+    "currentPage": 1,
+    "totalPages": 10,
+    "pageSize": 2,
+    "totalItems": 20,
+    "hasNextPage": true,
+    "hasPreviousPage": false
+  },
+  "links": {
+    "self": "/api/posts?page=1",
+    "next": "/api/posts?page=2",
+    "last": "/api/posts?page=10"
+  }
+}
+```
+
+TOON:
+
+```
+status: success
+data[2]{id,title,author}:
+  1,First Blog Post,Alice
+  2,Second Blog Post,Bob
+pagination:
+  currentPage: 1
+  totalPages: 10
+  pageSize: 2
+  totalItems: 20
+  hasNextPage: true
+  hasPreviousPage: false
+links:
+  self: /api/posts?page=1
+  next: /api/posts?page=2
+  last: /api/posts?page=10
+```
+
+JSON: ~119 tokens, TOON: ~78 tokens, (34.5% less)
+
+## JSON - TOON Comparison Summary
+
