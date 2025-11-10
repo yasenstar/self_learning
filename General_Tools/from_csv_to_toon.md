@@ -17,6 +17,8 @@
     - [10 API Response - REST API Error Response](#10-api-response---rest-api-error-response)
     - [11 API Response - Paginated API Response](#11-api-response---paginated-api-response)
   - [JSON - TOON Comparison Summary](#json---toon-comparison-summary)
+  - [One Statistic Comparison](#one-statistic-comparison)
+  - [Installation of TOON](#installation-of-toon)
 
 ## Brief of TOON
 
@@ -640,3 +642,64 @@ JSON: ~119 tokens, TOON: ~78 tokens, (34.5% less)
 | 4. API Response | 4.2 REST API Error Response | ~72 | ~49 | 31.9% | ![32%](https://geps.dev/progress/32) |
 | 4. API Response | 4.3 Paginated API Response | ~119 | ~78 | 34.5% | ![35%](https://geps.dev/progress/35) |
 
+## One Statistic Comparison
+
+```JSON
+{
+  "products": [
+    {
+      "id": "P003",
+      "name": "Keyboard",
+      "price": 79.99,
+      "inStock": false,
+      "country": "China"
+    }
+  ]
+}
+```
+
+Convert to TOON:
+
+```
+products[1]{id,name,price,inStock,country}:
+  P003,Keyboard,79.99,false,China
+```
+
+Token numbers: in JSON - 34, in TOON - 24.
+
+Increase about 30 tokens in JSON when adding one more product, while about 10 tokens in TOON.
+
+The source file: [JSON-TOON_Comparison.xlsx](./JSON-TOON_Comparison.xlsx)
+
+![JSON-TOON_Comparison.xlsx](img/token_comparison.png)
+
+## Installation of TOON
+
+```
+# npm
+npm install @toon-format/toon
+
+# pnpm
+pnpm add @toon-format/toon
+
+# yarn
+yarn add @toon-format/toon
+```
+
+Usage example:
+
+```javascript
+import { encode } from '@toon-format/toon'
+
+const data = {
+    users: [
+        { id: 1, name: 'Alice', role: 'admin'},
+        { id: 2, name: 'Bob', rolw: 'user' }
+    ]
+}
+
+console.log(encode(data))
+// users[2]{id,name,role}:
+//   1,Alice,admin
+//   2,Bob,user
+```
