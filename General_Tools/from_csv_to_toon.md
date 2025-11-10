@@ -703,3 +703,27 @@ console.log(encode(data))
 //   1,Alice,admin
 //   2,Bob,user
 ```
+
+Create one Node.js app with above javascript file for testing, as below:
+
+```
+mkdir my-node-app
+
+cd .\my-node-app\
+
+npm init -y
+
+npm add @toon-format/toon
+
+# create index.js with above code
+
+node index.js
+
+# If you get error:
+# SyntaxError: Cannot use import statement outside a module
+# change setting in your package.json with "type": "module"
+```
+
+---
+
+Enjoy! Updated at 11/10/2025, 2:13:50 PM 

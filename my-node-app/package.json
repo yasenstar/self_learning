@@ -1,0 +1,17 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "@comment": ["type": "commonjs"],
+  "type": "module",
+  "dependencies": {
+    "@toon-format/toon": "^1.0.0"
+  }
+}
