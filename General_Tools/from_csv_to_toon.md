@@ -5,8 +5,13 @@
   - [When to Use or Not Use TOON?](#when-to-use-or-not-use-toon)
   - [Benchmarks from online playground](#benchmarks-from-online-playground)
   - [Compare between JSON and TOON](#compare-between-json-and-toon)
-    - [01 Simple User Profile](#01-simple-user-profile)
-    - [02 E-commerce Product](#02-e-commerce-product)
+    - [01 Basic JSON - Simple User Profile](#01-basic-json---simple-user-profile)
+    - [02 Basic JSON - E-commerce Product](#02-basic-json---e-commerce-product)
+    - [03 Basic JSON - Address Information](#03-basic-json---address-information)
+    - [04 JSON Array - List of Users](#04-json-array---list-of-users)
+    - [05 JSON Array - Product Catalog](#05-json-array---product-catalog)
+    - [06 Nested JSON - User Profile with Nested Address](#06-nested-json---user-profile-with-nested-address)
+    - [07 Nested JSON - E-commerce Order with Items](#07-nested-json---e-commerce-order-with-items)
 
 ## Brief of TOON
 
@@ -44,7 +49,7 @@ From interactive Format Tokenization Playground (https://www.curiouslychase.com/
 
 This article - using JSON-TOON converter - to show you the tokenization comparison between variable JSON format samples data with TOON
 
-### 01 Simple User Profile
+### 01 Basic JSON - Simple User Profile
 
 Basic use information with common field.
 
@@ -80,7 +85,7 @@ role: user
 
 JSON: ~48 tokens, TOON: ~31 tokens, (35.4% less)
 
-### 02 E-commerce Product
+### 02 Basic JSON - E-commerce Product
 
 Product data for online stores and catalogs.
 
@@ -100,6 +105,7 @@ JSON:
   "rating": 4.5,
   "brand": "AudioTech"
 }
+```
 
 TOON:
 
@@ -117,3 +123,268 @@ brand: AudioTech
 
 JSON: ~57 tokens, TOON: ~38 tokens, (33.3% less)
 
+### 03 Basic JSON - Address Information
+
+Standard address format for shipping and contact information.
+
+Use case: Shipping systems, contact forms, location services
+
+JSON:
+
+```JSON
+{
+  "street": "123 Main Street",
+  "city": "San Francisco",
+  "state": "CA",
+  "zipCode": "94102",
+  "country": "USA",
+  "type": "residential"
+}
+```
+
+TOON:
+
+```
+street: 123 Main Street
+city: San Francisco
+state: CA
+zipCode: "94102"
+country: USA
+type: residential
+```
+
+JSON: ~38 tokens, TOON: ~24 tokens, (36.8% less)
+
+### 04 JSON Array - List of Users
+
+Multiple user records in an array.
+
+Use case: user management systemsm, admin dashboards, team directories.
+
+JSON:
+
+```JSON
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "role": "moderator"
+    }
+  ],
+  "total": 3
+}
+```
+
+TOON:
+
+```
+users[3]{id,name,email,role}:
+  1,Alice Johnson,alice@example.com,admin
+  2,Bob Smith,bob@example.com,user
+  3,Charlie Brown,charlie@example.com,moderator
+total: 3
+```
+
+JSON: ~91 tokens, TOON: ~50 tokens, (45.1% less)
+
+### 05 JSON Array - Product Catalog
+
+Collection of products with pricing and availability.
+
+Use case: shopping carts, product lisitings, inventory APIs
+
+JSON:
+
+```JSON
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "Laptop",
+      "price": 999.99,
+      "inStock": true
+    },
+    {
+      "id": "P002",
+      "name": "Mouse",
+      "price": 29.99,
+      "inStock": true
+    },
+    {
+      "id": "P003",
+      "name": "Keyboard",
+      "price": 79.99,
+      "inStock": false
+    }
+  ]
+}
+```
+
+TOON:
+
+```
+products[3]{id,name,price,inStock}:
+  P001,Laptop,999.99,true
+  P002,Mouse,29.99,true
+  P003,Keyboard,79.99,false
+```
+
+JSON: ~74 tokens, TOON: ~38 tokens, (48.6% less)
+
+### 06 Nested JSON - User Profile with Nested Address
+
+User object containing nested address and contact information.
+
+Use case: customer relationship management, account profiles, registration systems
+
+JSON:
+
+```JSON
+{
+  "userId": 1001,
+  "name": "Sarah Williams",
+  "email": "sarah.w@example.com",
+  "address": {
+    "street": "456 Oak Avenue",
+    "city": "Portland",
+    "state": "OR",
+    "zipCode": "97201",
+    "country": "USA"
+  },
+  "phone": {
+    "home": "+1-503-555-0123",
+    "mobile": "+1-503-555-0124"
+  },
+  "preferences": {
+    "newsletter": true,
+    "notifications": false,
+    "language": "en"
+  }
+}
+```
+
+TOON:
+
+```
+userId: 1001
+name: Sarah Williams
+email: sarah.w@example.com
+address:
+  street: 456 Oak Avenue
+  city: Portland
+  state: OR
+  zipCode: "97201"
+  country: USA
+phone:
+  home: +1-503-555-0123
+  mobile: +1-503-555-0124
+preferences:
+  newsletter: true
+  notifications: false
+  language: en
+```
+
+JSON: ~103 tokens, TOON: ~68 tokens, (34.0% less)
+
+### 07 Nested JSON - E-commerce Order with Items
+
+Complete order structure with customers, items, and payment details.
+
+Use case: order management, e-commerce platforms, invoice systems
+
+JSON:
+
+```
+{
+  "orderId": "ORD-2025-12345",
+  "orderDate": "2025-01-15T10:30:00Z",
+  "customer": {
+    "customerId": 5678,
+    "name": "Michael Chen",
+    "email": "michael.chen@example.com"
+  },
+  "items": [
+    {
+      "productId": "PROD-001",
+      "name": "Wireless Mouse",
+      "quantity": 2,
+      "price": 29.99
+    },
+    {
+      "productId": "PROD-002",
+      "name": "USB Cable",
+      "quantity": 3,
+      "price": 9.99
+    }
+  ],
+  "shipping": {
+    "method": "Express",
+    "cost": 15.00,
+    "address": {
+      "street": "789 Pine Street",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101"
+    }
+  },
+  "payment": {
+    "method": "credit_card",
+    "last4": "4242",
+    "status": "paid"
+  },
+  "subtotal": 89.95,
+  "tax": 8.10,
+  "total": 113.05,
+  "status": "processing"
+}
+```
+
+TOON:
+
+```
+orderId: ORD-2025-12345
+orderDate: "2025-01-15T10:30:00Z"
+customer:
+  customerId: 5678
+  name: Michael Chen
+  email: michael.chen@example.com
+items[2]{productId,name,quantity,price}:
+  PROD-001,Wireless Mouse,2,29.99
+  PROD-002,USB Cable,3,9.99
+shipping:
+  method: Express
+  cost: 15
+  address:
+    street: 789 Pine Street
+    city: Seattle
+    state: WA
+    zipCode: "98101"
+payment:
+  method: credit_card
+  last4: "4242"
+  status: paid
+subtotal: 89.95
+tax: 8.1
+total: 113.05
+status: processing
+```
+
+JSON: ~196 tokens, TOON: ~127 tokens, (35.2% less)
+
+
+
+JSON: ~196 tokens, TOON: ~127 tokens, (35.2% less)
