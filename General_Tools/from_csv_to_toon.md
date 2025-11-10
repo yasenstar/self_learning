@@ -626,3 +626,9 @@ JSON: ~119 tokens, TOON: ~78 tokens, (34.5% less)
 
 ## JSON - TOON Comparison Summary
 
+| Category | Use Case | JSON Tokens | TOON Tokens | % less |
+| --- | --- | --- | --- | --- |
+| 1. Basic JSON | 1.1 Simple User Profile | ~48 | ~31 | 35.4% [35%](https://progress-bar.dev/35)|
+| 1. Basic JSON | 1.2 E-commerce Product | ~57 | ~38 | 33.3% |
+| 1. Basic JSON | 1.3 Address Information | ~38 | ~24 | 36.8% |
+| 2. JSON Array | 2.1 List of Users | ~91 | ~50 | 45.1% |
