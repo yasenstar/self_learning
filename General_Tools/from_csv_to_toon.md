@@ -626,9 +626,17 @@ JSON: ~119 tokens, TOON: ~78 tokens, (34.5% less)
 
 ## JSON - TOON Comparison Summary
 
-| Category | Use Case | JSON Tokens | TOON Tokens | % less |
-| --- | --- | --- | --- | --- |
-| 1. Basic JSON | 1.1 Simple User Profile | ~48 | ~31 | 35.4% [35%](https://progress-bar.dev/35)|
-| 1. Basic JSON | 1.2 E-commerce Product | ~57 | ~38 | 33.3% |
-| 1. Basic JSON | 1.3 Address Information | ~38 | ~24 | 36.8% |
-| 2. JSON Array | 2.1 List of Users | ~91 | ~50 | 45.1% |
+| Category | Use Case | JSON Tokens | TOON Tokens | % less | Saving Illustration |
+| --- | --- | --- | --- | --- | --- |
+| 1. Basic JSON | 1.1 Simple User Profile | ~48 | ~31 | 35.4% | ![35%](https://geps.dev/progress/35) |
+| 1. Basic JSON | 1.2 E-commerce Product | ~57 | ~38 | 33.3% | ![33%](https://geps.dev/progress/33) |
+| 1. Basic JSON | 1.3 Address Information | ~38 | ~24 | 36.8% | ![37%](https://geps.dev/progress/37) |
+| 2. JSON Array | 2.1 List of Users | ~91 | ~50 | 45.1% | ![45%](https://geps.dev/progress/45) |
+| 2. JSON Array | 2.2 Product Catalog | ~74 | ~38 | 48.6% | ![49%](https://geps.dev/progress/49) |
+| 3. Nested JSON | 3.1 User Profile with Nested Address | ~103 | ~68 | 34.0% | ![34%](https://geps.dev/progress/34) |
+| 3. Nested JSON | 3.2 E-commerce Order with Items | ~196 | ~127 | 35.2% | ![35%](https://geps.dev/progress/35) |
+| 3. Nested JSON | 3.3 Company with Departments and Empoloyees | ~180 | ~116 | 35.6% | ![36%](https://geps.dev/progress/36) |
+| 4. API Response | 4.1 REST API Success Response | ~85 | ~59 | 30.6% | ![31%](https://geps.dev/progress/31) |
+| 4. API Response | 4.2 REST API Error Response | ~72 | ~49 | 31.9% | ![32%](https://geps.dev/progress/32) |
+| 4. API Response | 4.3 Paginated API Response | ~119 | ~78 | 34.5% | ![35%](https://geps.dev/progress/35) |
+
