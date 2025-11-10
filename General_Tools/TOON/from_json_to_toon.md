@@ -30,7 +30,7 @@ TOON - Token-Oriented Object Notation - comparing to JSON (JavaScript Object Not
 
 The purpose of its design is for passing structured data to Large Language Models with significantly reduced token usage.
 
-TOON's sweet spot is **uniform arrays of objecvts** - multiple fields per row, same structure across items. It borrows YAML(YAML Ain't Markup Lanauage)'s indentation-based structure for nested objects and CSV(Comma-Separated Values)'s tabular formate for uniform data rows, then optimizes both for token efficiency in LLM contexts. While, for deeply nested or non-uniform data, JSON may be more efficient.
+TOON's sweet spot is **uniform arrays of objects** - multiple fields per row, same structure across items. It borrows YAML(YAML Ain't Markup Lanauage)'s indentation-based structure for nested objects and CSV(Comma-Separated Values)'s tabular formate for uniform data rows, then optimizes both for token efficiency in LLM contexts. While, for deeply nested or non-uniform data, JSON may be more efficient.
 
 Think of TOON as a tranlation layer: use JSON programmatically, convert to TOON for LLM input. --> the goal is the minimize the numbers of tokens while it's still costly in LLM.
 
