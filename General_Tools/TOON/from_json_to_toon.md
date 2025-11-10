@@ -19,6 +19,7 @@
   - [JSON - TOON Comparison Summary](#json---toon-comparison-summary)
   - [One Statistic Comparison](#one-statistic-comparison)
   - [Installation of TOON](#installation-of-toon)
+- [Introduction and Demo Video](#introduction-and-demo-video)
 
 ## Brief of TOON
 
@@ -40,7 +41,7 @@ For small payloads, JSON/CSV/YAML work fine. TOON's value emerges at scale: when
 
 If token costs matter to your use case, TOON reduces them. If not, sticke with what works.
 
-When NOT to use TOON: TOON excels with uniform arrays of objecvts, but there are cases where other formats are better:
+When NOT to use TOON: TOON excels with uniform arrays of objects, but there are cases where other formats are better:
 
 - **Deeply nested or non-uniform structures** (tabular eligibility $\approx$ 0%): JSON-compact often uses fewer tokens.
 - **Semi-uniform arrays** (~40-60% tabular eligibility): Token saving diminish. Prefer JSON if your pipelines already rely on it.
@@ -723,6 +724,12 @@ node index.js
 # SyntaxError: Cannot use import statement outside a module
 # change setting in your package.json with "type": "module"
 ```
+
+# Introduction and Demo Video
+
+- Youtube (English): https://youtu.be/4q6DooWY6Hs
+- 抖音（中文）：[深入解析 大语言模型中使用TOON](https://www.douyin.com/jingxuan/search/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E4%B8%AD%E4%BD%BF%E7%94%A8TOON?aid=eb324e1e-b25a-4c64-87d7-ebaf4cc051f1&modal_id=7571227573489831210&type=general)
+- B站（中文）：
 
 ---
 
