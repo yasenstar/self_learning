@@ -6,6 +6,7 @@
   - [Benchmarks from online playground](#benchmarks-from-online-playground)
   - [Compare between JSON and TOON](#compare-between-json-and-toon)
     - [01 Simple User Profile](#01-simple-user-profile)
+    - [02 E-commerce Product](#02-e-commerce-product)
 
 ## Brief of TOON
 
@@ -45,6 +46,12 @@ This article - using JSON-TOON converter - to show you the tokenization comparis
 
 ### 01 Simple User Profile
 
+Basic use information with common field.
+
+Use case: User authentication, profile management, account systems
+
+JSON:
+
 ```JSON
 {
   "userId": 12345,
@@ -58,7 +65,9 @@ This article - using JSON-TOON converter - to show you the tokenization comparis
 }
 ```
 
-```JSON
+TOON:
+
+```
 userId: 12345
 username: john_doe
 email: john.doe@example.com
@@ -68,4 +77,43 @@ age: 28
 isActive: true
 role: user
 ```
+
+JSON: ~48 tokens, TOON: ~31 tokens, (35.4% less)
+
+### 02 E-commerce Product
+
+Product data for online stores and catalogs.
+
+Use cases: E-commerce platforms, inventory management, product catalogs
+
+JSON:
+
+```JSON
+{
+  "productId": "PROD-2024-001",
+  "name": "Wireless Bluetooth Headphones",
+  "category": "Electronics",
+  "price": 79.99,
+  "currency": "USD",
+  "inStock": true,
+  "quantity": 145,
+  "rating": 4.5,
+  "brand": "AudioTech"
+}
+
+TOON:
+
+```
+productId: PROD-2024-001
+name: Wireless Bluetooth Headphones
+category: Electronics
+price: 79.99
+currency: USD
+inStock: true
+quantity: 145
+rating: 4.5
+brand: AudioTech
+```
+
+JSON: ~57 tokens, TOON: ~38 tokens, (33.3% less)
 
