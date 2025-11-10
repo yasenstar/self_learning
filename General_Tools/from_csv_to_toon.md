@@ -45,7 +45,8 @@ This article - using JSON-TOON converter - to show you the tokenization comparis
 
 ### 01 Simple User Profile
 
-```JSON title="JSON, ~48 tokends"
+```JSON  title="aaa"
+# JSON, ~48 tokens
 {
   "userId": 12345,
   "username": "john_doe",
@@ -58,3 +59,20 @@ This article - using JSON-TOON converter - to show you the tokenization comparis
 }
 ```
 
+```JSON
+# TOON, ~31 tokens (35.4% less)
+userId: 12345
+username: john_doe
+email: john.doe@example.com
+firstName: John
+lastName: Doe
+age: 28
+isActive: true
+role: user
+```
+
+```python {id="python-print" class="blue large" data-filename="test.py"}
+import time
+
+print(2 + 2)
+```
