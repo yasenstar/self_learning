@@ -728,6 +728,7 @@ node index.js
 # Introduction and Demo Video
 
 - Youtube (Chinese): https://youtu.be/4q6DooWY6Hs
+- Youtube (English): https://youtu.be/UK0XDGOINVg
 - 抖音（中文）：[深入解析 大语言模型中使用TOON](https://www.douyin.com/jingxuan/search/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90%20%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E4%B8%AD%E4%BD%BF%E7%94%A8TOON?aid=eb324e1e-b25a-4c64-87d7-ebaf4cc051f1&modal_id=7571227573489831210&type=general)
 - B站（中文）：[深入解析 TOON (面向分词的对象表示法) Token-Oriented Object Notation](https://www.bilibili.com/video/BV1sPkBBpEpH/?spm_id_from=333.337.search-card.all.click)
 
