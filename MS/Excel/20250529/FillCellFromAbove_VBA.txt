@@ -1,7 +1,0 @@
-Sub FillCellFromAbove()
-    For Each cell In Selection
-        If cell.Value = "" Then
-            cell.Value = cell.Offset(-1, 0).Value
-        End If
-    Next cell
-End Sub
