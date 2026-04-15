@@ -20,6 +20,10 @@ When you type a number as large as 9776, Windows often "wraps around" or gets co
 | --- | --- | --- |
 | Left Angle Quote, left-pointing double angle quotation mark, left guillemet, chevrons (in typography) | « | Alt + 0171 |
 | Right Angle Quote, right-pointing double angle quotation mark, right guillemet | » | Alt + 0187 |
+| Copyright | © | Alt + 0169 |
+| Trademark | ™ | Alt + 0153 |
+| Registered Trademark | ® | Alt + 0174 |
+| Service mark | &#8480; | \&#8480; |
 
 ### Chinese Pinyin with Tone Marks
 
@@ -81,4 +85,4 @@ When you type a number as large as 9776, Windows often "wraps around" or gets co
 
 | Symbol | HTML Entity DEC| Symbol Name|
 | --- | --- | --- |
-| &#9776; | &#9776 | 
+| &#9776; | \&#9776; | 
