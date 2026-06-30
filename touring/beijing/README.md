@@ -1,6 +1,6 @@
 # Info for booking places in Beijing for foreigers
 
-| Place | Ticket Rehttps://www.trip.com/travel-guide/attraction/beijing/badaling-great-wall-75596/?locale=en_xx&curr=USD&allianceid=7003431&sid=254161699&isscan=T&ext-osspotid=230servation Link |
+| Place | Ticket Reservation Link |
 | --- | --- |
 | 故宫博物院 The Palace Museum | https://bookingticket.dpm.org.cn/ |
 | 天安门广场 TianAnMen Square | https://yuyue2026.tamgw.beijing.gov.cn/web/index.html |
